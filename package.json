@@ -1,0 +1,25 @@
+{
+  "name": "academic-api",
+  "version": "1.0.0",
+  "description": "Academic rest api for teachers and students",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "academic",
+    "rest",
+    "api",
+    "student",
+    "teacher"
+  ],
+  "author": "Jeferson Arango López",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.1",
+    "crypto-js": "^4.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.18",
+    "mongoose-unique-validator": "^2.0.3"
+  }
+}
