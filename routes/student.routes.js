@@ -2,7 +2,6 @@
 const controller = require("../controller/logic/student.controller");
 
 module.exports = (app) => {
-    console.log("Loading routes of student");
     app.get("/student", (req, res, next) => {
         controller.getAll(req, res, next);
     });

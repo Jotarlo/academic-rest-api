@@ -8,7 +8,8 @@
         }
     },
     "secretkeys": {
-        "cryptojs": "jsA5t2@tfhD"
+        "cryptojs": "jsA5t2@tfhD",
+        "jwt": "ABC@2020*"
     },
     "roles": {
         "student": 1,
